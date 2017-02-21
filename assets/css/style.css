@@ -1,0 +1,68 @@
+h1 {
+	color: white;
+	background-color: cadetblue;
+	text-align: center;
+	width: 25%;
+	padding: 20px;
+}
+
+
+
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: white;
+	clear: left;
+	border-bottom: 10px solid #666;
+}
+
+li a {
+	text-align: center;
+    display: block;
+    color: #b2b2b2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    border-right:1px solid #bbb;
+}
+
+body {
+	background-image: url("file:///C:/Users/Richard/Desktop/Basic-Portfolio/assets/images/swirl_pattern.png") ;
+}
+
+.container {
+ 	width: 500px;
+ 	overflow: auto;
+ }
+
+ #about-me {
+ 	float:left;
+ 	background: white;
+ 	float:left;
+ }
+
+ p {
+ 	color: #b2b2b2;
+}
+
+
+footer { 
+	border-top: 10px solid #666;
+	background: #618685;
+	padding: 40px;
+	margin-top: 20px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+
+.connect-with-me {
+	float: right;
+	background: white;
+	padding: 20px;
+	width: 160px;
+	text-align: center;
+}
