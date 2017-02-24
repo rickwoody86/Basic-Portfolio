@@ -1,68 +1,143 @@
-h1 {
-	color: white;
-	background-color: cadetblue;
-	text-align: center;
-	width: 25%;
-	padding: 20px;
+body {
+	background: #1A202C;
+	font-family: Franklin Gothic, sans-serif;
+	line-height: 24px;
 }
 
+header {
+	background:  white;
+}
 
+main {
+	background:  #DEDAA9;
+}
 
+footer {
+	text-align: center;
+	color: white;
+	padding: 20px 0;
+	clear: both;
+	border-top: 5px solid #74AF96;
+}
 
-ul {
-	list-style-type: none;
+img.potrait {
+	padding: 5px;
+	border: 1px solid gray;
+ 	float: left;
+ 	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-left:20px;
+	box-shadow: 5px 5px 5px #888888
+ }
+
+ ul{
+    list-style-type: none;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     overflow: hidden;
     background-color: white;
-	clear: left;
-	border-bottom: 10px solid #666;
+}
+
+li {
+    float: left;
 }
 
 li a {
-	text-align: center;
     display: block;
-    color: #b2b2b2;
+    color: black;
     text-align: center;
-    padding: 14px;
+    padding: 14px 16px;
     text-decoration: none;
-    border-right:1px solid #bbb;
 }
 
-body {
-	background-image: url("file:///C:/Users/Richard/Desktop/Basic-Portfolio/assets/images/swirl_pattern.png") ;
+li a:hover:not(.active) {
+    background-color: white;
 }
 
-.container {
- 	width: 500px;
- 	overflow: auto;
+.active {
+    color: white;
+    margin-left: 20px;
+    font-size: 36px;
+    background-color: #084C61;
+}
+
+.container{ 
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 60px 0;
+}
+
+.container p {
+	margin-bottom: 18px;
+}
+
+ .aboutMe {
+ 	width: 60%;
+ 	float: left;
  }
 
- #about-me {
- 	float:left;
+ .aboutMe h1 {
+	margin-left: 20px;
+}
+
+ .sidebar {
+ 	margin-right: 10px;
+  	width: 28%;
+ 	float: right;
+ }
+
+ .sidebar h3 {
+ 	text-align: center;
+ 	font-size: 24px;
+}
+
+.sidebar ul li {
+	display: inline;
+	padding: 6px;
+
+}
+
+ .card { 
+ 	padding: 20px;
  	background: white;
- 	float:left;
- }
+ 	box-shadow: 10px 10px 5px #888888;
+  }
 
- p {
- 	color: #b2b2b2;
+ .name {
+  	color: white;
+  	text-decoration: none;
+  	margin-left: 20px;
+  	background: #74AF96;
+  	font-size: 36px;
+  	padding: 24px;
+  	float: left;
+  }
+
+.Contact {
+	float: left;
+	height: 500px;
+	width: 500px;
 }
 
-
-footer { 
-	border-top: 10px solid #666;
-	background: #618685;
-	padding: 40px;
-	margin-top: 20px;
-	color: white;
-	font-size: 12px;
-	text-align: center;
-}
-
-.connect-with-me {
-	float: right;
-	background: white;
+.Portfolio {
+	float: left;
+	width: 500px;
+	margin: 0 auto;
 	padding: 20px;
-	width: 160px;
-	text-align: center;
 }
+
+.floating-box {
+	display: inline-block;
+	width:150px;
+	height: 75px;
+	margin: 10px;
+	padding: 30px;
+
+}
+
+ input[name=Message]  {
+	height: 250px;
+	width: 300px;
+}
+
